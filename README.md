@@ -1,4 +1,7 @@
-# test coverage for  [gift (v0.10.0)](https://github.com/notatestuser/gift)  [![npm package](https://img.shields.io/npm/v/npmtest-gift.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gift) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gift.svg)](https://travis-ci.org/npmtest/node-npmtest-gift)
+# npmtest-gift
+
+#### basic test coverage for  [gift (v0.10.0)](https://github.com/notatestuser/gift)  [![npm package](https://img.shields.io/npm/v/npmtest-gift.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gift) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gift.svg)](https://travis-ci.org/npmtest/node-npmtest-gift)
+
 #### a Git wrapper library
 
 [![NPM](https://nodei.co/npm/gift.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gift)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gift/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gift/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gift/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gift/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gift/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gift/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gift/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gift/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gift/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gift/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gift/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gift/build/coverage.html/index.html)
 
@@ -85,7 +88,8 @@
         "prepublish": "coffee -o lib -c src",
         "test": "mocha --compilers coffee:\"./node_modules/coffee-script/lib/coffee-script/register\""
     },
-    "version": "0.10.0"
+    "version": "0.10.0",
+    "bin": {}
 }
 ```
 
